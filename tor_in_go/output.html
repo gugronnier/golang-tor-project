@@ -1,0 +1,391 @@
+<!--
+    __    _      __                      __            __        _                            __ 
+   / /_  (_)____/ /_______   ___  ____  / /____  _____/ /_____ _(_)___  ____ ___  ___  ____  / /_
+  / __ \/ / ___/ //_/ ___/  / _ \/ __ \/ __/ _ \/ ___/ __/ __ `/ / __ \/ __ `__ \/ _ \/ __ \/ __/
+ / / / / / /__/ ,< (__  )  /  __/ / / / /_/  __/ /  / /_/ /_/ / / / / / / / / / /  __/ / / / /_  
+/_/ /_/_/\___/_/|_/____/   \___/_/ /_/\__/\___/_/   \__/\__,_/_/_/ /_/_/ /_/ /_/\___/_/ /_/\__/
+
+ooososss+sooo+oo/+++o+++o+//+//////:/:.-          
+oooososoos/o++ooo++++o++o++/+:/::+::::-:`         
+o+soosoos+/o+oos+++oos+++o++/://oo/+:-::.         
+ooo+oo+o++++os++o++oo+//++++/+/:+//:/-:/-         
+o+ooo+++++++/oo++++o+o/+o++++/++/++///+/:`        
+soo+o++sso+oooo+ooo+o+so+o+/++//o+/+/:/::.        
+o+o++/+++/+osooooo+/o++o/+o+o+//o+/:-//+--        
++++++++++so+oso++++oooosooo++ss////-////::.       
+//+o/+ooo+/+oo++oo+o+osooososysoo+/+:+///--       
+/+/++o+//+//o+//+++++o++/+o++ooooooo+o+---:`      
++o+/++///://+++/s+++ooo+++//+++++ossso+/:::`      
+/:o+/+:::/:::+ossoossssoo+///++++ssyysso::/.      
+/++++/::-////oo+sssssssoss++oshyso+oo++::/+`      
+/////::::::+oo+++syssoo+/::::/ss+o++/:+++/.       
+///+///:://+/++oososoos+/::-//ssoo+///o+:`        
+//+/:///++/++/oo+oo++o+//:::+oo+ooooo+o+-`        
+++//+://:/++//so/+o/+++:-..:/+o+oo+soooo/-.       
+/++++++/:/+o+oo++/+o+/+:--/:oo+os+osoo+o+:-.      
+/////o+///oo+o++o/+++//:--/o/++o+//+o//o+/-:`     
++/+++/+///+oo///+//++/::://+/+//////::/os////`                                                        
+so++/++o++o//://+//++//::/://+::/:-:::+s+/++/-    
+o///++/+//+///+://:/:://://///:/::::/+////o///.   
+o//////o+/:::/::::-/////:+:--/::/+o/++++/o+++/:   
+o+/+/o+o++//::::/:://++//+:--:/+sssoosssoso+o/:-  
++/+++o/++//::://:--://:+:/--:-/sysso++/++sooo///   Ce gros pif quand même.
+o/+o++/++/:://+::-:+///+//---/osso++++/oo++++/::` 
+o+o+///+/:/:///::::/++o+/---:-/so+o+o+oys+////:-  
++/++//:+//+/////-://+/+://:::-/+++o/+o///+/:/:.   
+/////o/+/+/+/o+/:::///+/:-:://///+//++`           
+/+++/ooo//+:/o///::/++o::-::/:///ooo++            
++++/+oo++://++/::::+/:/:/--:///+://-.+`           
+++/+//+++/++//::+//+::/::-:+/+++:/::-o.           
+o+o++oo+++/:::++++::-/:-:/:://://-::/:            
+soo++oooo++////o+/://::-:-+//////-:-.             
+oo++/ooo+o/////+///::/::-/o+::+++o+.              
+oo/+/+/+/+/+++/+///::/::::/:/+o+o+/-              
+o+o+o///o++///::/+//:+::--::/:///+:`              
+ooo+o///os+++/:+/+/+//:-:--///+++.                
+o+oso+:+oo+/++//:/+/::-:::://++/-                 
+o/oo//o+++/++///:+////::-::++.//.                 
++++//+++o/+++///+/://+/::/:+/:+:-
+dmlld2ZvcnVtP2lkPWxhX3JlcG9uc2VfYV9sYV92aWVfbF91bml2ZXJzX2V0X2xlX3Jlc3Rl
+-->
+<!DOCTYPE html>
+<html xml:lang="fr" lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" type="favicon" href="favicon.gif" />
+<title>Trollodrome</title>
+<link rel="stylesheet" type="text/css" href="style/Mercury.css" />
+<style type="text/css">
+.anim-tenor{background:rgba(255,0,0,0.1);border-radius:50%;animation-name:anim-tenor1;animation-timing-function:ease-in-out;animation-duration:2s;animation-iteration-count:infinite;animation-direction:alternate-reverse}.anim-tenor.tenor1{animation-name:anim-tenor1;position:absolute;bottom:0;right:0;opacity:0.8;transform:rotateX(0deg)}.anim-tenor.tenor2{animation-name:anim-tenor2;position:absolute;top:0;left:0;opacity:0.8;transform:rotateX(180deg)}.anim-tenor.tenor3{animation-name:anim-tenor3;position:absolute;bottom:10%;left:30%;opacity:0.8;transform:rotateZ(Odeg)}.anim-tenor.tenor4{animation-name:anim-tenor4;position:absolute;top:0;right:30%;opacity:0.8;transform:rotateX(180deg)}.anim-tenor.tenor5{animation-name:anim-tenor4;position:absolute;bottom:0;right:0;opacity:0.8}@keyframes anim-tenor1{0%{background:rgba(255,0,0,0.2);transform:rotateZ(-80deg);width:126px}25%{background:rgba(0,255,0,0.2)}50%{background:rgba(0,0,255,0.2)}75%%{background:rgba(128,0,0,0.2)}100%{background:rgba(0,128,0,0.2);transform:rotateZ(80deg);transform:rotateY(180deg);width:148px}}@keyframes anim-tenor2{0%{background:rgba(255,0,0,0.2);transform:rotateZ(80deg);width:196px}25%{background:rgba(0,128,0,0.2)}50%{background:rgba(128,0,0,0.2)}75%%{background:rgba(0,0,255,0.2)}100%{background:rgba(0,255,0,0.2);transform:rotateZ(-80deg);width:126px}}@keyframes anim-tenor3{0%{background:rgba(0,128,0,0.2);transform:rotateZ(-80deg);width:96px}25%{background:rgba(128,0,0,0.2)}50%{background:rgba(0,0,255,0.2)}75%%{background:rgba(0,255,0,0.2)}100%{background:rgba(255,0,0,0.2);transform:rotateZ(80deg);width:192px}}@keyframes anim-tenor4{0%{background:rgba(0,0,255,0.2);transform:rotateZ(-80deg);width:72px}25%{background:rgba(255,0,0,0.2)}50%{background:rgba(0,255,0,0.2)}75%%{background:rgba(0,128,0,0.2)}100%{background:rgba(128,0,0,0.2);transform:rotateZ(80deg);transform:rotateY(180deg);width:256px}}
+</style>
+</head>
+
+<body>
+
+	<div id="punindex" class="pun">
+
+
+		<div class="top-box"></div>
+
+		<div class="punwrap">
+
+			<div id="brdheader" class="block">
+				<div class="hd"><h2><strong>Liens miroirs</strong>: <a href="http://trololo7zq2dkwwl.onion">Officiel</a>, <a href="http://dqosn24f4epliqhe.onion">Mirroir1</a>, <a href="http://mvfrfytij7zc33ve.onion">Mirroir2, <a href="http://owajdp2vm7afxe25.onion">Mirroir3</a>, <a href="http://wdol7ezbsriyf4ox.onion">Mirroir4</a>, <a href="http://7w4jm54u2nv6tlji.onion">Mirroir5</a></a><span style="font-size: 10px;"> (utiliser un autre lien si celui sur lequel vous vous trouvez est lent en raison de l'attaque ddos d'un script-kiddie)</span></h2></div>
+				<div class="box" id="bg-ban" style="position: relative;">
+					<img class="anim-tenor tenor1" src="/img/tenor.gif" width="128">
+					<img class="anim-tenor tenor2" src="/img/tenor.gif" width="128">
+					<img class="anim-tenor tenor3" src="/img/tenor.gif" width="128">
+					<img class="anim-tenor tenor4" src="/img/tenor.gif" width="128">
+					<div id="brdtitle" class="inbox">
+						<center><a href="index.php"><img no-referrer id="logo-img" src="/img/logo.png" alt="logo"/></a></center>
+						
+					</div>
+					<div id="brdmenu" class="inbox">
+			<ul>
+				<li id="navindex" class="isactive"><a href="index.php">Accueil</a></li>
+				<li id="navextra1"><a href="/help.php#bbcode">BBCode</a></li>
+				<li id="navextra2"><a href="/search.php">Rechercher</a></li>
+				<li id="navextra3"><a href="/search.php?action=show_recent">Tendances</a></li>
+				<li id="navextra4"><a href="/chat.php" style="color: orange;">Chatôdrôme</a></li>
+				<li id="navextra5"><a href="/xmpp.php" style="color: #ffe659;">XMPP</a></li>
+				<li id="navextra6"><a href="http://fcyeuvr7t7dckgyr.onion/" style="color: #7ae37a;">TrollLab</a></li>
+			</ul>
+		</div>
+					
+			
+			<div class="clearer"></div>
+		
+				</div>
+			</div>
+
+			<div id="announce" class="block">
+	<div class="hd"><h2><span>Annonce</span></h2></div>
+	<div class="box">
+		<div id="announce-block" class="inbox" style="width: 48%; display: inline-block; vertical-align: middle">
+			<div class="usercontent">Chers lecteurs, nous irons droit au but : aujourd'hui, nous vous demandons d'aider le Trollodrome. Si chaque personne qui lit ce message donnait un compte FDW, cela permettrait au troll de perdurer pendant encore quelque temps. Un petit compte, c'est tout ce dont nous avons besoin. Si le troll vous amuse, prenez une minute pour <a href="/fdwaccount.php">faire un don</a>.
+
+<center><div style="border: 1px #474747 solid;margin: 0.5em;height: 25px;width: 300px; background: #424242;padding:0;position:relative;text-align: left;">
+	<div style="position: absolute;color: black; left: 40%;">51 / 100</div>
+	<div style="padding: 0;background: orange;height: 25px; width: 153px;text-align: center; line-height: 25px;"></div></div></center></div>
+		</div>
+		<div id="last_chat_message" class="block" style="width: 48%; display: inline-block; vertical-align: middle; padding-top: 10px;">
+			<div class="hd"><h2><span>Dernier message du Chatôdrôme</span></h2></div>
+			<div class="box">
+				<tr style="border:0;">
+					<div id="announce-block" class="inbox">
+						<table>
+							<td style="width: 5%; border: 0"><img style="border-radius: 50%;border: 1px orange solid;" src="/identicon.php?size=96&hash=b53e3e13cca502c1feb9c0b587afe0c7" width="64" /></td>
+			<td style="border:0">
+				<h4 style="margin: 0 0 0.5em 0;"><span style="color: #ae123b">DINGO</span> <em style="color: #757575;">Hier 16:14:38</em></h4>
+				<p>BRULER VIF TOUT LES RACISTES C EST CA L'OBJECTIF !!!!!!!!!!!!!!!!!!!!!</p>			</td>
+						</table>
+					</div>
+				</tr>
+			</div>
+		</div>
+		<div class="clearer"></div>
+	</div>
+</div>
+
+			<div id="brdmain">
+				<div id="idx1" class="blocktable">
+	<h2><span>Débauche</span></h2>
+	<div class="box">
+		<div class="inbox">
+			<table>
+			<thead>
+				<tr>
+					<th class="tcl" scope="col">Forum</th>
+					<th class="tc2" scope="col">Discussions</th>
+					<th class="tc3" scope="col">Messages</th>
+					<th class="tcr" scope="col">Dernier message</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="rowodd">
+					<td class="tcl">
+						<div class="icon" style="float: left;"><img src="/img/bourbier.jpg" alt="icon" width="48" height="48"></div>
+												<div class="tclcon" style="padding-top: 5px;">
+							<div>
+								<h3 style="margin-bottom: 5px;"><a href="viewforum.php?id=1">Bourbier</a></h3>
+								<div class="forumdesc">Venez troller, clasher, décharger votre haine, vous lamenter et régler vos comptes</div>
+							</div>
+						</div>
+					</td>
+					<td class="tc2">478</td>
+					<td class="tc3">4 731</td>
+					<td class="tcr"><a href="viewtopic.php?pid=10156#p10156">Aujourd'hui 14:58:14</a> <span class="byuser">par Shahada</span></td>
+				</tr>
+				<tr class="roweven">
+					<td class="tcl">
+						<div class="icon" style="float: left;"><img src="/img/porno.jpg" alt="icon" width="48" height="48"></div>
+												<div class="tclcon" style="padding-top: 5px;">
+							<div>
+								<h3 style="margin-bottom: 5px;"><a href="viewforum.php?id=14">Pornographie</a></h3>
+								<div class="forumdesc">Représentation d'actes sexuels ayant pour but de susciter l'excitation sexuelle</div>
+							</div>
+						</div>
+					</td>
+					<td class="tc2">33</td>
+					<td class="tc3">580</td>
+					<td class="tcr"><a href="viewtopic.php?pid=10155#p10155">Aujourd'hui 14:18:24</a> <span class="byuser">par lems</span></td>
+				</tr>
+				<tr class="rowodd">
+					<td class="tcl">
+						<div class="icon" style="float: left;"><img src="/img/dox.jpg" alt="icon" width="48" height="48"></div>
+												<div class="tclcon" style="padding-top: 5px;">
+							<div>
+								<h3 style="margin-bottom: 5px;"><a href="viewforum.php?id=16">DOX</a></h3>
+								<div class="forumdesc">Chercher, trouver et publier des informations privées de quelqu’un sur Internet.</div>
+							</div>
+						</div>
+					</td>
+					<td class="tc2">11</td>
+					<td class="tc3">50</td>
+					<td class="tcr"><a href="viewtopic.php?pid=10132#p10132">Aujourd'hui 10:38:41</a> <span class="byuser">par Le doxeur four</span></td>
+				</tr>
+			</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+
+<div id="idx2" class="blocktable">
+	<h2><span>Esprit</span></h2>
+	<div class="box">
+		<div class="inbox">
+			<table>
+			<thead>
+				<tr>
+					<th class="tcl" scope="col">Forum</th>
+					<th class="tc2" scope="col">Discussions</th>
+					<th class="tc3" scope="col">Messages</th>
+					<th class="tcr" scope="col">Dernier message</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="rowodd">
+					<td class="tcl">
+						<div class="icon" style="float: left;"><img src="/img/politique.jpg" alt="icon" width="48" height="48"></div>
+												<div class="tclcon" style="padding-top: 5px;">
+							<div>
+								<h3 style="margin-bottom: 5px;"><a href="viewforum.php?id=10">Politique</a></h3>
+								<div class="forumdesc">Venez gâcher le repas de famille en parlant politique</div>
+							</div>
+						</div>
+					</td>
+					<td class="tc2">18</td>
+					<td class="tc3">96</td>
+					<td class="tcr"><a href="viewtopic.php?pid=10014#p10014">2019-05-02 16:22:19</a> <span class="byuser">par Lt WILLSDORFF</span></td>
+				</tr>
+				<tr class="roweven">
+					<td class="tcl">
+						<div class="icon" style="float: left;"><img src="/img/poesie.jpg" alt="icon" width="48" height="48"></div>
+												<div class="tclcon" style="padding-top: 5px;">
+							<div>
+								<h3 style="margin-bottom: 5px;"><a href="viewforum.php?id=5">Poésie</a></h3>
+								<div class="forumdesc">Lieu d'expression poétique où les oiseaux chantent</div>
+							</div>
+						</div>
+					</td>
+					<td class="tc2">12</td>
+					<td class="tc3">28</td>
+					<td class="tcr"><a href="viewtopic.php?pid=8175#p8175">2019-03-25 22:21:00</a> <span class="byuser">par Fouteur_de_merde</span></td>
+				</tr>
+				<tr class="rowodd">
+					<td class="tcl">
+						<div class="icon" style="float: left;"><img src="/img/philo.jpg" alt="icon" width="48" height="48"></div>
+												<div class="tclcon" style="padding-top: 5px;">
+							<div>
+								<h3 style="margin-bottom: 5px;"><a href="viewforum.php?id=8">Philosophie</a></h3>
+								<div class="forumdesc">Partager vos réflexions critiques et vos questionnements sur le monde</div>
+							</div>
+						</div>
+					</td>
+					<td class="tc2">7</td>
+					<td class="tc3">18</td>
+					<td class="tcr"><a href="viewtopic.php?pid=9975#p9975">2019-05-01 14:59:09</a> <span class="byuser">par vendeur d&#039;âme</span></td>
+				</tr>
+				<tr class="roweven">
+					<td class="tcl">
+						<div class="icon" style="float: left;"><img src="/img/informatique.jpg" alt="icon" width="48" height="48"></div>
+												<div class="tclcon" style="padding-top: 5px;">
+							<div>
+								<h3 style="margin-bottom: 5px;"><a href="viewforum.php?id=15">Informatique</a></h3>
+								<div class="forumdesc">Tout ce qui a trait à l'informatique en général</div>
+							</div>
+						</div>
+					</td>
+					<td class="tc2">12</td>
+					<td class="tc3">50</td>
+					<td class="tcr"><a href="viewtopic.php?pid=10098#p10098">2019-05-05 23:07:34</a> <span class="byuser">par Hacker</span></td>
+				</tr>
+				<tr class="rowodd">
+					<td class="tcl">
+						<div class="icon" style="float: left;"><img src="/img/science.jpg" alt="icon" width="48" height="48"></div>
+												<div class="tclcon" style="padding-top: 5px;">
+							<div>
+								<h3 style="margin-bottom: 5px;"><a href="viewforum.php?id=12">Science</a></h3>
+								<div class="forumdesc">La science est l'ensemble des connaissances et études d'une valeur universelle</div>
+							</div>
+						</div>
+					</td>
+					<td class="tc2">5</td>
+					<td class="tc3">29</td>
+					<td class="tcr"><a href="viewtopic.php?pid=10119#p10119">Hier 14:09:15</a> <span class="byuser">par Zahef</span></td>
+				</tr>
+				<tr class="roweven">
+					<td class="tcl">
+						<div class="icon" style="float: left;"><img src="/img/spiritualite.jpg" alt="icon" width="48" height="48"></div>
+												<div class="tclcon" style="padding-top: 5px;">
+							<div>
+								<h3 style="margin-bottom: 5px;"><a href="viewforum.php?id=13">Spiritualité</a></h3>
+								<div class="forumdesc">Croyances et pratiques qui concernent la vie de l'âme, la vie spirituelle</div>
+							</div>
+						</div>
+					</td>
+					<td class="tc2">10</td>
+					<td class="tc3">24</td>
+					<td class="tcr"><a href="viewtopic.php?pid=10118#p10118">Hier 13:48:12</a> <span class="byuser">par Bozo-le-clown</span></td>
+				</tr>
+			</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+
+<div id="idx3" class="blocktable">
+	<h2><span>Mercatique</span></h2>
+	<div class="box">
+		<div class="inbox">
+			<table>
+			<thead>
+				<tr>
+					<th class="tcl" scope="col">Forum</th>
+					<th class="tc2" scope="col">Discussions</th>
+					<th class="tc3" scope="col">Messages</th>
+					<th class="tcr" scope="col">Dernier message</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="rowodd">
+					<td class="tcl">
+						<div class="icon" style="float: left;"><img src="/img/publicite.jpg" alt="icon" width="48" height="48"></div>
+												<div class="tclcon" style="padding-top: 5px;">
+							<div>
+								<h3 style="margin-bottom: 5px;"><a href="viewforum.php?id=6">Publicité</a></h3>
+								<div class="forumdesc">Venez grappiller du temps de cerveau disponible</div>
+							</div>
+						</div>
+					</td>
+					<td class="tc2">48</td>
+					<td class="tc3">65</td>
+					<td class="tcr"><a href="viewtopic.php?pid=10154#p10154">Aujourd'hui 14:00:35</a> <span class="byuser">par Pirate informatique</span></td>
+				</tr>
+				<tr class="roweven">
+					<td class="tcl">
+						<div class="icon" style="float: left;"><img src="/img/annuaire.jpg" alt="icon" width="48" height="48"></div>
+												<div class="tclcon" style="padding-top: 5px;">
+							<div>
+								<h3 style="margin-bottom: 5px;"><a href="viewforum.php?id=9">Annuaire</a></h3>
+								<div class="forumdesc">Partager des liens, présenter le site web de votre petit cousin dealer de meth</div>
+							</div>
+						</div>
+					</td>
+					<td class="tc2">12</td>
+					<td class="tc3">36</td>
+					<td class="tcr"><a href="viewtopic.php?pid=9910#p9910">2019-04-29 22:43:51</a> <span class="byuser">par tropfrais</span></td>
+				</tr>
+				<tr class="rowodd">
+					<td class="tcl">
+						<div class="icon" style="float: left;"><img src="/img/achatvente.jpg" alt="icon" width="48" height="48"></div>
+												<div class="tclcon" style="padding-top: 5px;">
+							<div>
+								<h3 style="margin-bottom: 5px;"><a href="viewforum.php?id=11">Achats / Ventes</a></h3>
+								<div class="forumdesc">Achetez et vendez, tout simplement</div>
+							</div>
+						</div>
+					</td>
+					<td class="tc2">181</td>
+					<td class="tc3">232</td>
+					<td class="tcr"><a href="viewtopic.php?pid=10112#p10112">Hier 02:20:57</a> <span class="byuser">par Ah ?</span></td>
+				</tr>
+			</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div id="brdstats" class="block">
+	<h2><span>Informations sur les forums</span></h2>
+	<div class="box">
+		<div style="float:left;margin: 0.35em 0 0 0.35em;" class="icon" >
+			<a href="/viewforum.php?id=0"><img style="opacity: 0.8;" src="/img/caca.gif"  width="50" height="50" alt="forum caca"></a>
+		</div>
+		
+		<div class="inbox">
+			<dl class="conr">
+				<dt><strong>Statistiques des forums</strong></dt>
+				<dd><span>Nombre total de membres&#160;: <strong>1</strong></span></dd>
+				<dd><span>Nombre total de discussions&#160;: <strong>831</strong></span></dd>
+				<dd><span>Nombre total de messages&#160;: <strong>5 951</strong></span></dd>
+			</dl>
+			<dl class="conl">
+				<dt><strong>Informations sur l'utilisateur</strong></dt>
+				<dd></dd>
+			</dl>
+			<div class="clearer"></div>
+		</div>
+	</div>
+</div>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
